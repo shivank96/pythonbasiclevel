@@ -1,4 +1,4 @@
-name=input("Enter your name")
+name=input("Enter your name:")
 rollno=0
 try:
     rollno=int(input("Enter your roll number"))
