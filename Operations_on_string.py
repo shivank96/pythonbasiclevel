@@ -8,3 +8,8 @@ name1 = input("Enter a name")
 for x in name1:
     if x.istitle():
         print(x)
+
+# reverse a name
+str=input("Enter any name ")
+
+print("The reverse of ",str," is ",str[::-1])
