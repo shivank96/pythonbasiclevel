@@ -1,0 +1,5 @@
+Python is a
+high level
+programming language
+that supports oops
+And it is dynamic typed
