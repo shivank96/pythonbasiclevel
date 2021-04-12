@@ -1,5 +1,5 @@
 import csv
-import re
+import sys as s
 
 
 # Function for reading a configuration file(information file) that contains information of the file
@@ -282,5 +282,5 @@ def validate_digit_boundaries(val, index_pos):
         print(index_pos + 1, "valid marks")
 
 # file="studentdetails.csv"
-file_name=input("Enter a file name")
+file_name = s.argv[1]
 Validate_csv(config_data_of_dic,file_name)
